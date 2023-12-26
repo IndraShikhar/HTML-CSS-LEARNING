@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+
+  margin: 48px 0;
+}
+
+header img {
+  width: 100%;
+}
+
+header div h1 {
+  margin-bottom: 24px;
+}
+
+header div p {
+  margin-bottom: 24px;
+}
+
+.ques-ans {
+  margin-bottom: 48px;
+}
+
+.ques {
+  margin: 48px 0;
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+  column-gap: 80px;
+}
+
+.ans p:first-child {
+  margin-bottom: 16px;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  column-gap: 80px;
+
+  margin-bottom: 48px;
+}
+
+.reviews img {
+  width: 100%;
+}
+
+.review {
+  grid-column: 2/4;
+}
+
+.review p:nth-child(2),
+.review h2 {
+  margin-bottom: 24px;
+}
+
+.best {
+  margin-bottom: 48px;
+}
+
+.best-prod {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+
+  column-gap: 80px;
+  margin-bottom: 48px;
+}
+
+.prod img {
+  width: 100%;
+}
+
+.prod-details {
+  padding: 24px;
+}
+
+.prod p,
+.prod h3 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart p,
+.cart a {
+  margin-bottom: 0;
+}
+
+footer {
+  margin-bottom: 48px;
+}
